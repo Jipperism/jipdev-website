@@ -13,25 +13,25 @@ pygmentscodefencesguesssyntax = true
 disqusShortname = "yourdiscussshortname"
 
 [params]
-  author = "Jip Stavenuiter"
-  info = "Full Stack DevOps and Magician"
+  author = "jip stavenuiter"
+  info = "full stack developer"
   description = "John Doe's personal website"
   keywords = "blog,developer,personal"
-  avatarurl = "images/avatar.jpg"
+  #avatarurl = "images/avatar.jpg"
   #gravatar = "john.doe@example.com"
 
   favicon_32 = "/img/favicon-32x32.png"
   favicon_16 = "/img/favicon-16x16.png"
 
   footercontent = "Enter a text here."
-  hideFooter = false
-  hideCredits = false
-  hideCopyright = false
+  hideFooter = true
+  hideCredits = true
+  hideCopyright = true
   since = 2019
 
   enableTwemoji = true
 
-  colorsheme = "auto"
+  colorscheme = "dark"
   hidecolorschemetoggle = true
 
 
@@ -46,24 +46,24 @@ disqusShortname = "yourdiscussshortname"
   name = "Github"
   icon = "fa fa-github fa-2x"
   weight = 1
-  url = "https://github.com/johndoe/"
+  url = "https://github.com/Jipperism"
 [[params.social]]
-  name = "Gitlab"
-  icon = "fa fa-gitlab fa-2x"
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
   weight = 2
-  url = "https://gitlab.com/johndoe/"
+  url = "https://www.linkedin.com/in/jip-stavenuiter-061354119/"
 [[params.social]]
-  name = "Twitter"
-  icon = "fa fa-twitter fa-2x"
+  name = "Email"
+  icon = "fa fa-envelope fa-2x"
   weight = 3
-  url = "https://twitter.com/johndoe/"
+  url = "mailto:jipstavenuiter@gmail.com"
 
 # Menu links
 [[menu.main]]
-  name = "Blog"
+  name = "projects"
   weight = 1
   url  = "posts/"
 [[menu.main]]
-  name = "About"
+  name = "about me"
   weight = 2
   url = "about/"
