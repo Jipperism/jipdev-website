@@ -1,4 +1,4 @@
-baseurl = "https://jips.dev"
+baseurl = "https://www.jips.dev"
 title = "jipdev"
 theme = "hugo-coder"
 languagecode = "en"
